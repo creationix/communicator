@@ -7,8 +7,7 @@ return {
   author = { name = "Tim Caswell", email = "tim@creationix.com" },
   homepage = "https://github.com/creationix/communicator",
   dependencies = {
-    "creationix/weblit-app@3",
-    "creationix/weblit-websocket@3",
+    "creationix/weblit@3",
     "creationix/redis-client@3",
   },
   files = {
