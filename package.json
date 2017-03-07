@@ -1,0 +1,28 @@
+{
+  "name": "communicator",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "rollup": "^0.41.4",
+    "rollup-plugin-closure-compiler-js": "^1.0.3",
+    "rollup-plugin-svelte": "^1.6.0",
+    "rollup-watch": "^3.2.2"
+  },
+  "scripts": {
+    "install": "lit install",
+    "build": "rollup -w -c",
+    "serve": "luvit server.lua"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/creationix/communicator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/creationix/communicator/issues"
+  },
+  "homepage": "https://github.com/creationix/communicator#readme"
+}
